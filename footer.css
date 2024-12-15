@@ -1,0 +1,78 @@
+footer {
+    background-color: #212121; /* Dark background */
+    color: white;
+    padding: 40px 0;
+}
+
+.footer-column {
+    margin-bottom: 20px;
+}
+
+.footer-column h5 {
+    color: orange; /* Orange headings */
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer-column p, .footer-column ul {
+    color: white;
+}
+
+.social-icons a {
+    color: white;
+    margin-right: 15px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: orange;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin: 8px 0;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .footer-column {
+        text-align: center;
+    }
+}
+/* Responsive Design for Footer */
+@media (max-width: 768px) {
+    footer {
+        text-align: center; /* Center-align footer content */
+        padding: 20px 0; /* Adjust padding */
+    }
+
+    .footer-column {
+        margin-bottom: 20px; /* Add spacing between columns */
+    }
+
+    .footer-column h5 {
+        font-size: 1.2rem; /* Reduce heading size */
+    }
+
+    .footer-column p,
+    .footer-column ul {
+        font-size: 0.9rem; /* Adjust font size */
+    }
+
+    .social-icons a {
+        font-size: 18px; /* Reduce icon size */
+        display: inline-block; /* Ensure proper spacing */
+        margin-bottom: 10px; /* Add space between links */
+    }
+}

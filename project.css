@@ -1,0 +1,26 @@
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.text-orange {
+    color: #FFA500;
+}
+
+.project-card {
+    background-color: #1a1a1a;
+    border: none;
+}
+
+.project-card .card-title {
+    font-weight: bold;
+}
+
+.project-card img {
+    height: 200px;
+    object-fit: cover;
+}
+.navbar .nav-link {
+    font-weight: bold;
+    font-size: 1rem;
+}

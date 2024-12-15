@@ -1,0 +1,87 @@
+/* Hero Section */
+.hero-section {
+  padding: 50px 0;
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+}
+
+.text-section, 
+.col-md-6 {
+  margin-left: 300px; /* Moves the text and image 300px to the right */
+}
+
+.welcome-text {
+  color: #ffa500; /* Orange Color */
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.description-text {
+  font-size: 1.1rem;
+  color: #cccccc;
+  margin: 15px 0;
+}
+
+.contact-btn {
+  background-color: #ffa500; /* Orange Button */
+  color: #121212; /* Black Text */
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-btn:hover {
+  background-color: #e69500;
+  color: white;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border: 5px solid #ffa500; /* Orange Border */
+}
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .hero-section {
+      flex-direction: column; /* Stack content vertically */
+      align-items: center; /* Center align items */
+      gap: 20px; /* Reduce gap between text and image */
+      padding: 20px; /* Add padding for spacing */
+  }
+  .navbar .nav-link {
+    font-weight: bold;
+    font-size: 1rem;
+}
+  .text-section {
+      margin-left: 0; /* Remove left margin */
+      text-align: center; /* Center-align text */
+  }
+
+  h1 {
+      font-size: 2rem; /* Reduce heading size */
+  }
+
+  .description-text {
+      font-size: 1rem; /* Adjust description text size */
+  }
+
+  .contact-btn {
+      width: 100%; /* Make button full-width */
+      padding: 10px; /* Adjust padding */
+  }
+
+  .img-fluid {
+      width: 100%; /* Scale image to fit the container */
+      height: auto; /* Maintain aspect ratio */
+      border: none; /* Remove border */
+      border-radius: 0; /* Remove border radius */
+  }
+}

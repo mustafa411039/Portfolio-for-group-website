@@ -1,0 +1,74 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Background */
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #000000;
+}
+.navbar .nav-link {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    height: 100vh;
+    background: url('paper-style-dynamic-lines-background_23-2149008629.avif') no-repeat center center;
+    background-size: cover;
+}
+
+/* Content Styling */
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    max-width: 80%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #FFA500; /* Orange */
+    font-weight: bold;
+}
+
+p, ul {
+    color: #ffffff;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin: -10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .content {
+        max-width: 90%;
+
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    p, ul {
+        font-size: 1em;
+    }
+}
